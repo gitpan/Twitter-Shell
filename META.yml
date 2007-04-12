@@ -16,4 +16,4 @@ requires:
   Config::Any: 0
   Net::Twitter: 0
   Term::Shell: 0
-version: 0.01
+version: 0.02

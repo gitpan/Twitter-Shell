@@ -1,3 +1,4 @@
+Changes
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -10,7 +11,6 @@ inc/Module/Install/Metadata.pm
 inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/Twitter/.Shell.pm.swp
 lib/Twitter/Shell.pm
 lib/Twitter/Shell/Base.pm
 lib/Twitter/Shell/Shell.pm

@@ -1,4 +1,4 @@
-# $Id$
+# $Id: /mirror/perl/Twitter-Shell/trunk/lib/Twitter/Shell.pm 6478 2007-04-12T06:47:23.347147Z daisuke  $
 #
 # Copyright (c) 2007 Daisuke Maki <daiuske@endeworks.jp>
 # All rights reserved.
@@ -7,11 +7,12 @@ package Twitter::Shell;
 use strict;
 use warnings;
 use base qw(Twitter::Shell::Base);
+use Carp qw(croak);
 use Config::Any;
 use Net::Twitter;
 use Twitter::Shell::Shell;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors($_) for qw(shell config twitter);
 
@@ -119,7 +120,13 @@ Twitter::Shell - Twitter From Your Shell!
    twitter> friends_timeline
    [friend] A message, another message
 
+   twitter> ft
+   [friend] A message, another message
+
    twitter> public_timeline
+   [friend] A message, another message
+
+   twitter> pt
    [friend] A message, another message
 
    twitter> followers

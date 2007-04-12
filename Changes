@@ -1,0 +1,10 @@
+Changes
+=======
+
+- 0.02 Thu 12 Apr
+  - Add brief summary to each command
+  - Add aliases to long commands: ft, pt
+  - Remove .swp files. ugh
+
+- 0.01 Thu 12 Apr 
+  - Released unto an unsuspecting world.
