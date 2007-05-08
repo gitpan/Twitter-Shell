@@ -1,4 +1,4 @@
-# $Id: /mirror/perl/Twitter-Shell/trunk/lib/Twitter/Shell/Shell.pm 6478 2007-04-12T06:47:23.347147Z daisuke  $
+# $Id: /mirror/perl/Twitter-Shell/trunk/lib/Twitter/Shell/Shell.pm 7104 2007-05-08T15:04:37.108325Z daisuke  $
 #
 # Copyright (c) 2007 Daisuke Maki <daisuke@endeworks.jp>
 # All rights reserved.
@@ -125,3 +125,68 @@ sub smry_followers { "display followers' status" }
 sub help_followers {}
 
 1;
+
+__END__
+
+=head1 NAME
+
+Twitter::Shell::Shell - Provides shell for Twitter::Shell
+
+=head1 METHODS
+
+=head2 context
+
+=head2 help_followers
+
+=head2 help_friends
+
+=head2 help_friends_timeline
+
+=head2 help_ft
+
+=head2 help_pt
+
+=head2 help_public_timeline
+
+=head2 help_say
+
+=head2 help_update
+
+=head2 new
+
+=head2 prompt_str
+
+=head2 run_followers
+
+=head2 run_friends
+
+=head2 run_friends_timeline
+
+=head2 run_ft
+
+=head2 run_pt
+
+=head2 run_public_timeline
+
+=head2 run_say
+
+=head2 run_update
+
+=head2 smry_followers
+
+=head2 smry_friends
+
+=head2 smry_friends_timeline
+
+=head2 smry_ft
+
+=head2 smry_pt
+
+=head2 smry_public_timeline
+
+=head2 smry_say
+
+=head2 smry_update
+
+=cut
+

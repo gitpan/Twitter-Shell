@@ -1,4 +1,4 @@
-# $Id: /mirror/perl/Twitter-Shell/trunk/lib/Twitter/Shell.pm 6478 2007-04-12T06:47:23.347147Z daisuke  $
+# $Id: /mirror/perl/Twitter-Shell/trunk/lib/Twitter/Shell.pm 7106 2007-05-08T15:08:18.139509Z daisuke  $
 #
 # Copyright (c) 2007 Daisuke Maki <daiuske@endeworks.jp>
 # All rights reserved.
@@ -6,13 +6,13 @@
 package Twitter::Shell;
 use strict;
 use warnings;
-use base qw(Twitter::Shell::Base);
+use base qw(Class::Accessor::Fast);
 use Carp qw(croak);
 use Config::Any;
 use Net::Twitter;
 use Twitter::Shell::Shell;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->mk_accessors($_) for qw(shell config twitter);
 
@@ -137,5 +137,39 @@ Twitter::Shell - Twitter From Your Shell!
 Twitter::Shell gives you access to Twitter from your shell!
 
 Documentation coming soon...
+
+=head1 METHODS
+
+=head2 api_friends
+
+=head2 api_friends_timeline
+
+=head2 api_public_timeline
+
+=head2 api_followers
+
+=head2 api_update
+
+=head2 load_config
+
+=head2 new
+
+=head2 run
+
+=head2 setup
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
 
 =cut
